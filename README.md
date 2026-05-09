@@ -1,2 +1,0 @@
-# Fintech
-Projeto site Fintech
