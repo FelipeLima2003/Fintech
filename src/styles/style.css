@@ -12,6 +12,11 @@ header{
     border-bottom: solid var(--color-primary);
 }
 
+.header-logo{
+    width: 194px;
+}
+
+
 .container-nav-header ul{
     display: flex;
     gap: 45px;
@@ -34,5 +39,54 @@ header{
     background-color: var(--color-primary);
     padding: 10px 20px;
     border-radius: 10px;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    padding: 100px 79.5px;
+    background-color: var(--color-secondary);
+}
+
+.content-main{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+}
+
+.content-main h1{
+    color: var(--color-neutral-white);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-h1);
+    width: 499px;
+}
+
+.content-main h1 span{
+    color: var(--color-primary);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-h1);
+}
+
+.content-main p{
+    color: var(--color-neutral-white);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    width: 497px;   
+}
+
+.btn-main-section{
+    font-size: var(--font-size-button);
+    font-weight: var(--font-weight-button);
+    background-color: var(--color-secondary);
+    font-family: var(--font-family-primary);
+    padding: 10px 25px;
+    border: solid;
     text-decoration: none;
 }
