@@ -36,5 +36,5 @@
     --font-weight-caption:400;
 
     /* --------- Familia ---------*/
-    font-family: "Inter", sans-serif;
+    --font-family-primary: "Inter", sans-serif;
 }

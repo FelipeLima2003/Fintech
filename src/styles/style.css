@@ -1,0 +1,38 @@
+@import url("./global.css");
+
+/* Customização Header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-secondary);
+    padding: 46px 137.5px;
+    gap: 139px;
+    border-bottom: solid var(--color-primary);
+}
+
+.container-nav-header ul{
+    display: flex;
+    gap: 45px;
+}
+
+.container-nav-header ul li, .container-nav-header ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: var(--color-neutral-white);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+}
+
+.btn-header{
+    color: var(--color-neutral-white);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-button);
+    font-weight: var(--font-weight-button);
+    background-color: var(--color-primary);
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
