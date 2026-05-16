@@ -47,7 +47,7 @@ main{
     justify-content: center;
     align-items: center;
     gap: 48px;
-    padding: 100px 79.5px;
+    padding: 100px;
     background-color: var(--color-secondary);
 }
 
