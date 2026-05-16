@@ -79,6 +79,7 @@ main{
     font-size: var(--font-size-body);
     font-weight: var(--font-weight-body);
     width: 497px;   
+    letter-spacing: 0.5px;
 }
 
 .btn-main-section{
@@ -92,4 +93,40 @@ main{
     border-radius: 8px;
     color: var(--color-neutral-white);           
 }
+/* Seção serviços do aplicativo */
+.content-service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 60px;
+    background-color: var(--color-neutral-white);
+}
+
+.content-service-item{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.content-service-item h2{
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-h2);
+    font-size: var(--font-size-h2);
+    width: 443px;
+}
+
+.content-service-item span{
+    color: var(--color-primary);
+}
+
+.content-service-item p{
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-body);
+    font-size: var(--font-size-body);
+    width: 603px;
+    letter-spacing: 0.5px;
+}
+
 
