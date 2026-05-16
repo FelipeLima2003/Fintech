@@ -185,7 +185,7 @@ footer{
     background-color: var(--color-secondary);
     padding: 80px;
     gap: 126px;
-    border-top: solid var(--color-neutral-white);
+    border-top: 1px solid var(--color-neutral-white);
 }
 
 .footer-information{
