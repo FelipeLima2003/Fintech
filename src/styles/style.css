@@ -2,27 +2,28 @@
 
 /* Customização Header */
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: var(--color-secondary);
-    padding: 46px 137.5px;
+    padding: 46px;
     gap: 139px;
     border-bottom: solid var(--color-primary);
 }
 
-.header-logo{
+.header-logo {
     width: 194px;
 }
 
 
-.container-nav-header ul{
+.container-nav-header ul {
     display: flex;
     gap: 45px;
 }
 
-.container-nav-header ul li, .container-nav-header ul li a{
+.container-nav-header ul li,
+.container-nav-header ul li a {
     list-style: none;
     text-decoration: none;
     color: var(--color-neutral-white);
@@ -31,7 +32,7 @@ header{
     font-weight: var(--font-weight-body);
 }
 
-.btn-header{
+.btn-header {
     color: var(--color-neutral-white);
     font-family: var(--font-family-primary);
     font-size: var(--font-size-button);
@@ -42,7 +43,7 @@ header{
     text-decoration: none;
 }
 
-main{
+main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,14 +52,14 @@ main{
     background-color: var(--color-secondary);
 }
 
-.content-main{
+.content-main {
     display: flex;
     flex-direction: column;
     gap: 25px;
     justify-content: center;
 }
 
-.content-main h1{
+.content-main h1 {
     color: var(--color-neutral-white);
     font-family: var(--font-family-primary);
     font-size: var(--font-size-h1);
@@ -66,23 +67,23 @@ main{
     width: 499px;
 }
 
-.content-main h1 span{
+.content-main h1 span {
     color: var(--color-primary);
     font-family: var(--font-family-primary);
     font-size: var(--font-size-h1);
     font-weight: var(--font-weight-h1);
 }
 
-.content-main p{
+.content-main p {
     color: var(--color-neutral-white);
     font-family: var(--font-family-primary);
     font-size: var(--font-size-body);
     font-weight: var(--font-weight-body);
-    width: 497px;   
+    width: 497px;
     letter-spacing: 0.5px;
 }
 
-.btn-main-section{
+.btn-main-section {
     font-size: var(--font-size-button);
     font-weight: var(--font-weight-button);
     background-color: var(--color-secondary);
@@ -91,15 +92,16 @@ main{
     border: 1px solid var(--color-primary);
     text-decoration: none;
     border-radius: 8px;
-    color: var(--color-neutral-white);           
+    color: var(--color-neutral-white);
 }
 
-.btn-main-section:hover{
+.btn-main-section:hover {
     background-color: var(--color-primary);
     transition: 0.3s;
 }
+
 /* Seção serviços do aplicativo */
-.content-service{
+.content-service {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,25 +110,25 @@ main{
     background-color: var(--color-neutral-white);
 }
 
-.content-service-item{
+.content-service-item {
     display: flex;
     flex-direction: column;
     gap: 30px;
     justify-content: center;
 }
 
-.content-service-item h2{
+.content-service-item h2 {
     font-family: var(--font-family-primary);
     font-weight: var(--font-weight-h2);
     font-size: var(--font-size-h2);
     width: 443px;
 }
 
-.content-service-item span{
+.content-service-item span {
     color: var(--color-primary);
 }
 
-.content-service-item p{
+.content-service-item p {
     font-family: var(--font-family-primary);
     font-weight: var(--font-weight-body);
     font-size: var(--font-size-body);
@@ -135,7 +137,7 @@ main{
     letter-spacing: 0.5px;
 }
 
-.content-details{
+.content-details {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,7 +147,7 @@ main{
     background-color: var(--color-secondary);
 }
 
-.content-income{
+.content-income {
     display: flex;
     gap: 16px;
     flex-direction: column;
@@ -153,22 +155,25 @@ main{
     margin-bottom: 24px;
 }
 
-.content-income h2, p,span{
+.content-income h2,
+p,
+span {
     color: var(--color-neutral-white);
     font-family: var(--font-family-primary);
     color: var(--color-neutral-white);
 }
 
-.content-income h2,span {
+.content-income h2,
+span {
     font-weight: var(--font-weight-h2);
     font-size: var(--font-size-h2);
 }
 
-.content-income span{
+.content-income span {
     color: var(--color-primary);
 }
 
-.content-income p{
+.content-income p {
     font-weight: var(--font-weight-body);
     font-size: var(--font-size-body);
     width: 730px;
@@ -178,7 +183,7 @@ main{
 
 /* Footer */
 
-footer{
+footer {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
@@ -188,20 +193,20 @@ footer{
     border-top: 1px solid var(--color-neutral-white);
 }
 
-.footer-information{
+.footer-information {
     display: flex;
     gap: 50.67px;
     justify-content: start;
     align-self: center;
 }
 
-.footer-information-item{
+.footer-information-item {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.footer-information-item h2{
+.footer-information-item h2 {
     font-family: var(--font-family-primary);
     font-size: var(--font-size-button);
     font-weight: var(--font-weight-button);
@@ -209,18 +214,18 @@ footer{
     text-align: start;
 }
 
-.footer-information-item ul{
+.footer-information-item ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 8px;
 }
 
-.footer-information-item li{
+.footer-information-item li {
     list-style: none;
 }
 
-.footer-information-item li a{
+.footer-information-item li a {
     font-family: var(--font-family-primary);
     font-size: var(--font-size-body);
     font-weight: var(--font-weight-body);
@@ -236,13 +241,13 @@ footer{
 
 }
 
-.footer-contact h2{
+.footer-contact h2 {
     font-family: var(--font-family-primary);
     font-size: var(--font-size-button);
     font-weight: var(--font-weight-button);
     color: var(--color-neutral-white);
     width: 198px;
-  
+
 }
 
 .footer-contact form {
@@ -253,7 +258,7 @@ footer{
 
 }
 
-.footer-contact form input{
+.footer-contact form input {
     background-color: transparent;
     font-family: var(--color-primary);
     font-size: var(--font-size-body);
@@ -263,7 +268,7 @@ footer{
 }
 
 /* Css para o botão sseta */
-.btn-footer-contact-arrow{
+.btn-footer-contact-arrow {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -272,13 +277,113 @@ footer{
     width: 40px;
     background-color: var(--color-primary);
     box-shadow: 0 4px 14px 0px rgba(0, 0, 0, 0.15);
-    transition: 0.3s; 
+    transition: 0.3s;
     cursor: pointer;
 }
 
-.btn-footer-contact-arrow:hover{
+.btn-footer-contact-arrow:hover {
     background-color: var(--color-primary);
     transform: translateY(-10px);
 }
-    
 
+
+@media (max-width: 884px) {
+    header {
+        gap: 30px;
+    }
+
+    .container-nav-header ul {
+        display: flex;
+        gap: 15px;
+    }
+
+    main {
+        flex-direction: column-reverse;
+    }
+
+    main img {
+        width: 450px;
+    }
+
+    .content-main {
+        gap: 35px;
+    }
+
+    .content-service {
+        flex-direction: column;
+    }
+
+    .content-service img {
+        width: 350px;
+    }
+
+    .content-details img {
+        width: 600px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+
+    @media (max-width: 480px) {
+
+        .container-nav-header {
+            display: none;
+        }
+
+        .header-logo {
+            width: 45px;
+        }
+
+        .btn-header {
+            font-size: 10px;
+            padding: 8px 14px;
+        }
+
+        .content-main {
+            align-items: center;
+            
+        }
+
+        main img {
+            width: 360px;
+        }
+
+        .content-main h1{
+            font-size: var(--font-size-h3);
+            font-weight: var(--font-weight-h3);
+            width: 320px;
+         }
+
+        .content-main h1 span{
+            font-size: var(--font-size-h3);
+            font-weight: var(--font-weight-h3);
+         }
+
+        .content-main p {
+            width: 340px;
+        }
+
+        .content-service img{
+            width: 280px;
+        }
+ 
+       
+        .content-service-item h2,    .content-service-item h2 span{
+            font-size: var(--font-size-h3);
+            font-weight: var(--font-weight-h3);
+            width: 500px;
+            margin: 0 auto;
+
+        }
+
+        .content-service-item p{
+            font-size: var(--font-size-body);
+            font-weight:var(--font-size-body);
+            width: 520px;
+            margin: 0 auto;
+        }
+
+    }
+}
