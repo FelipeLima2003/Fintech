@@ -45,7 +45,7 @@ RiseFinance é um projeto desenvolvido durante os estudos de Front-End com o obj
 <!-- EXEMPLO DE LAYOUT: -->
 ## 🎨 Layout
 
-![Web1](https://github.com/FelipeLima2003/AgencyWeb/blob/main/Thumb%20-%20AgencyWeb.png)
+![Web1](https://github.com/FelipeLima2003/Fintech/blob/main/Thumb%20-%20Fintech.png)
 
 ---
 
