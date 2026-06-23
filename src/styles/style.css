@@ -317,18 +317,22 @@ footer {
   }
 
   @media (max-width: 480px) {
+    
+    html, body {
+    max-width: 100%;
+    overflow-x: hidden; 
+}
     .container-nav-header {
       display: none;
-    }
-
-    .header-logo {
-      width: 45px;
     }
 
     .btn-header {
       font-size: 10px;
       padding: 8px 14px;
-    }
+      white-space: nowrap;    
+      flex-shrink: 0;          
+  }
+    
 
     .content-main {
       align-items: center;
@@ -401,6 +405,7 @@ footer {
       text-align: center;
       gap: 45px;
       padding: 40px 24px;
+      margin: 0 auto;
     }
 
     .footer-information {
