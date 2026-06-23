@@ -368,8 +368,9 @@ footer {
 
     .content-service-item p {
       font-size: var(--font-size-body);
-      font-weight: var(--font-weight-body-body);
-      width: 360px;
+      font-weight: var(--font-weight-body);
+      width: 100%;
+      max-width: 400%;
       margin: 0 auto;
       text-align: justify;
     }
@@ -385,7 +386,8 @@ footer {
     .content-income p {
       font-size: var(--font-size-body);
       font-weight: var(--font-weight-body);
-      width: 360px;
+      width: 80%;
+      max-width: 400%;
       text-align: justify;
     }
 
@@ -394,15 +396,24 @@ footer {
     }
 
     footer {
-      gap: 60px;
-      padding: 40px;
-      margin: 0 auto;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 45px;
+      padding: 40px 24px;
     }
 
-    .footer-information div img {
-      width: 120px;
+    .footer-information {
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      width: 100%;
     }
 
+    .footer-information-item {
+      align-items: center;
+      gap: 16px;
+    }
     .footer-information-item h2 {
       font-size: var(--font-size-button);
       font-weight: var(--font-weight-button);
@@ -413,12 +424,19 @@ footer {
       font-weight: var(--font-weight-caption);
     }
 
+    .footer-contact form {
+      width: 100%;
+      max-width: 340px;
+      justify-content: center;
+      align-items: center;
+    }
+
     .footer-contact form input {
-    
       font-size: var(--font-size-caption);
       font-weight: var(--font-weight-caption);
       color: var(--color-neutral-white);
-      width: 360px;
+      width: 320px;
+    
     }
   }
 }
